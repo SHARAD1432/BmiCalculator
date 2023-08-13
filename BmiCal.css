@@ -1,0 +1,46 @@
+body{
+    background-color:gray;
+    text-align: center;
+}
+
+button{
+    background-color: rgba(red, green, blue, alpha);
+    outline: none;
+}
+h2{
+    margin-bottom: 10px;
+}
+.btn{
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 2px 3px black;
+}
+input{
+    width: 25%;
+    padding: 5px 14px;
+    border: 2px solid rgb(5, 5, 34);
+    margin-bottom: 10px;
+    background-color: rgba(red, green, blue, alpha);
+    outline: none;
+    font-size: 14px;
+    color: red;
+}
+input:focus{
+    border: 2px solid rgba(0,0,0,.4);
+    background-color: rgb(60,60,60);
+}
+form{
+    width: 45%;
+    background-color: whitesmoke;
+    padding: 20px;
+    color:black;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+    box-shadow: 3px 2px 0 red;
+    box-shadow: 2px 4px   black;
+}
+
+#result{
+    color: rgb(9, 250, 170);
+}
